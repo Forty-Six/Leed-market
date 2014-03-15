@@ -1,7 +1,10 @@
 /*
- @nom: marigolds-golden.css
- @auteur: Forty-Six
- @description: Stylesheet for the Cobalt74's "CSS Leed Maker" Plugin
+@nom: marigolds-golden.css
+@auteur: Forty-Six <Forty-Six>
+@link https://github.com/Forty-Six
+@licence CC by nc sa http://creativecommons.org/licenses/by-nc-sa/2.0/fr/
+@version 0.5
+@description: Stylesheet for the Cobalt74's "CSS Leed Maker" Plugin
 */
 
 body {
@@ -146,14 +149,61 @@ code {
 	background-color: #B1983B;
 }
 
+.cacheListFeed_divbut, #cacheListFeed_divbut_return {
+	cursor:pointer;
+}
+
+/*
+// Toggle Event Content plugin
+*/
+
 .FS_toggleEventContent_Button {
 	background-color: #B1983B;
 }
-
 .FS_toggleEventContent_Button:hover {
 	background-color: #CFB53B;
 }
 
-.cacheListFeed_divbut, #cacheListFeed_divbut_return {
-	cursor:pointer;
+/*
+//
+*/
+
+.FS_feedsCleaner_row td {
+	text-align: center;
+	vertical-align: middle;
 }
+
+.FS_feedsCleaner_row:hover {
+	background-color: #333;
+	color:#aaaaaa;
+}
+
+.FS_feedsCleaner_row_title {
+	border-bottom: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	background-color: #333333;
+}
+
+td.FS_feedsCleaner_feed_name {
+	text-align: left;
+}
+
+.FS_feedsCleaner_Button {
+	background-color: #B1983B;
+}
+
+.FS_feedsCleaner_Button:hover {
+	background-color: #CFB53B;
+}
+
+.FS_feedsCleaner_read {
+	font-weight: bold;
+	color:#B1983B;
+}
+
+.FS_feedsCleaner_favorites {
+	font-weight: bold;
+	color:#aaaaaa;
+}
+
+
